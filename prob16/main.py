@@ -1,3 +1,4 @@
+from collections import Counter
 with open ('prob16/input.txt', 'r') as file:
     text = file.readlines()
     for i in range(len(text)):
@@ -9,13 +10,15 @@ with open ('prob16/input.txt', 'r') as file:
         for i in range(len(text)):
             if text[i] == stock:
                 count+=1
-                text.pop[i]
+               # text.pop[i]
         print(count)
 
 
     trending = 0
     second_place = 0
-    numerate(1)
+    #numerate(1)
+    print(Counter(text))
+
    ## for line in text:
      #   numerate(line)
     
